@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/users"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Users" />
+        <item
+            android:id="@+id/reports"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Reports" />
+        <item
+            android:id="@+id/categories"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Categories" />
+
+        <item
+            android:id="@+id/places"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Places" />
+    </group>
+
+    <item android:title="Customer Service">
+        <menu>
+            <item
+                android:id="@+id/allcustomerservices"
+                android:icon="@drawable/ic_menu_send"
+                android:title="All Customer Services" />
+
+            <item
+                android:id="@+id/newcustomerservice"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Add New Customer Service" />
+
+            <item
+                android:id="@+id/customerservices"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Services" />
+        </menu>
+    </item>
+
+</menu>
